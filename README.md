@@ -1,1 +1,1 @@
-# qualtric-IAT
+# qualtrics-IAT
