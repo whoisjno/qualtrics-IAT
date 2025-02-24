@@ -3,43 +3,52 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 
 	return iatExtension({
 		category1 : {
-			name : 'Mechanomorphic Robots', //Will appear in the data.
+			name : 'Robots', //Will appear in the data.
 			title : {
 				media : {word : 'Robot'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
-			}, 
+			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'black1.jpg'}, 
-    			{image : 'black2.jpg'}, 
-    			{image : 'black3.jpg'}, 
-    			{image : 'black4.jpg'}, 
-    			{image : 'black5.jpg'}, 
-    			{image : 'black6.jpg'}
-			], 
+				{image: 'zenbo.jpg'},
+				{image: 'mero.jpg'},
+				{image: 'int-ball.jpg'},
+				{image: 'speech buddy.jpg'},
+				{image: 'maggie.jpg'},
+				{image: 'irobi-q.jpg'},
+				{image: 'papero.jpg'},
+				{image: 'ethon2.jpg'},
+				{image: 'franka emika.jpg'},
+				{image: 'homemate.jpg'},
+				{image: 'jibo.jpg'},
+				{image: 'mykie.jpg'},
+				{image: 'telubee.jpg'},
+				{image: 'tjbot.jpg'}
+			],
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
 		category2 :	{
-			name : 'White people', //Will appear in the data.
+			name : 'Toys', //Will appear in the data.
 			title : {
-				media : {word : 'White people'}, //Name of the category presented in the task.
+				media : {word : 'Toys'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'2em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
-			}, 
+			},
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		    {image : 'yf1.jpg'}, 
-    			{image : 'yf4.jpg'}, 
-    			{image : 'yf5.jpg'}, 
-    			{image : 'ym2.jpg'}, 
-    			{image : 'ym3.jpg'}, 
-    			{image : 'ym5.jpg'}			], 
+    		    {image : '2005.jpg'},
+    			{image : '2021.jpg'},
+    			{image : '2023.jpg'},
+    			{image : '2025.jpg'},
+    			{image : '2033.jpg'},
+    			{image : '2035.jpg'},
+    			{image : '2044.jpg'}			],
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
+		},
 
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
-		} 
+			image : 'https://github.com/whoisjno/qualtrics-IAT/tree/main/images'
+		}
 	});
 });
