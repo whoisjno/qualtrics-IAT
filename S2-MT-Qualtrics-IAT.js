@@ -1,5 +1,5 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/whoisjno/qualtrics-IAT@main/S2-IAT-Minno_Script.js'], function(APIConstructor, iatExtension){
-    var API = new APIConstructor();
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+	var API = new APIConstructor();
 
 	return iatExtension({
 		category1 : {
