@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(APIConstructor, iatExtension){
 	var API = new APIConstructor();
 
 	return iatExtension({
@@ -71,7 +71,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualt
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://github.com/whoisjno/qualtrics-IAT/tree/main/images'
+			image : 'https://github.com/whoisjno/qualtrics-IAT/tree/a61c0c44ab8ba0001fd4aeaa0e52d46d92a383ce/images'
 		}
 	});
 });
